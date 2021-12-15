@@ -1,0 +1,10 @@
+Why don't we use our local / personal laptops/computers to host websites and testing frameworks.
+1) I have to keep my laptop up and run all the time.
+2) personal laptops/computers don't have enough RAM CPU power to entertain huge requests
+3) internet connections are not that good
+4) security is also a very big problem when it comes to host services on local machine
+for these reasons we use servers.
+5) everyone can easily access them through their personal laptops
+======================
+SDLC:
+1) BAs discuss the requirements with clients and develop the SRS
