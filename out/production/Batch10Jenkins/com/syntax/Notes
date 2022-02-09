@@ -6,5 +6,17 @@ Why don't we use our local / personal laptops/computers to host websites and tes
 for these reasons we use servers.
 5) everyone can easily access them through their personal laptops
 ======================
-SDLC:
-1) BAs discuss the requirements with clients and develop the SRS
+
+SDLC: Software Development LifeCycle
+1) BAs discuss the requirements with clients and develop the SRS documents (software requirements specification)
+2) This document is then shared with Architects and QA Leads
+3) Architects design the software requirement documents (SRD) and QA Leads start planning the testing
+4) Once the SRDs are ready developers start working and start building the application
+5) This is where the deployment life cycle starts
+    1) Once the application is developed on local/personal computers or laptops by developers they push the code
+     to the git or any other version control system
+     they request the dev ops or IT team to deploy the application to development server so that they
+     are sure application still works outside their laptops
+     2) QA will request dev ops or IT team to deploy it to the QA server
+     3) If everything looks good all the test cases are passed QAs will deploy it to Staging server
+     4) If test cases fail QA will report them to Developer and the whole cycle starts again
